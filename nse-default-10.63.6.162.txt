@@ -1,4 +1,4 @@
-# Nmap 7.95 scan initiated Mon Sep 22 12:51:10 2025 as: /usr/lib/nmap/nmap --script default,discovery -p22,80,443 -oN nse-default-10.63.6.162.txt 10.63.6.162
+# Nmap 7.95 scan initiated Mon Sep 22 12:51:10 2025 as: /usr/lib/nmap/nmap --script default,discovery -p22,80,443 -oN nse-default-10.00.0.000.txt 10.00.0.000
 Pre-scan script results:
 |_hostmap-robtex: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/
 | targets-ipv6-multicast-slaac: 
@@ -53,19 +53,19 @@ Pre-scan script results:
 |   10.63.6.205
 |     Interface: eth0
 |     Version: 2
-|     Group: 224.0.0.252
+|     Group: 224.0.0.000
 |     Description: Link-local Multicast Name Resolution (rfc4795)
 |   10.63.6.205
 |     Interface: eth0
 |     Version: 2
-|     Group: 239.255.255.250
+|     Group: 239.255.255.000
 |     Description: Organization-Local Scope (rfc2365)
 |_  Use the newtargets script-arg to add the results as targets
 | targets-ipv6-multicast-echo: 
 |   IP: 2409:40e4:5d:58b2::9f      MAC: fa:46:17:d4:32:1a  IFACE: eth0
 |   IP: fe80::f846:17ff:fed4:321a  MAC: fa:46:17:d4:32:1a  IFACE: eth0
 |_  Use --script-args=newtargets to add the results as targets
-Nmap scan report for 10.63.6.162
+Nmap scan report for 10.00.0.00
 Host is up (0.000095s latency).
 
 PORT    STATE  SERVICE
@@ -74,7 +74,7 @@ PORT    STATE  SERVICE
 443/tcp closed https
 
 Host script results:
-|_dns-brute: Can't guess domain of "10.63.6.162"; use dns-brute.domain script argument.
+|_dns-brute: Can't guess domain of "10.00.0.000"; use dns-brute.domain script argument.
 |_ipidseq: All zeros
 |_path-mtu: ERROR: Script execution failed (use -d to debug)
 |_fcrdns: FAIL (No PTR record)
