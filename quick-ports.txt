@@ -1,0 +1,9 @@
+# Nmap 7.95 scan initiated Mon Sep 22 12:48:21 2025 as: /usr/lib/nmap/nmap -sS -T4 --open -F -oN quick-ports.txt 10.63.6.0/24
+Nmap scan report for 10.63.6.107
+Host is up (0.0048s latency).
+Not shown: 99 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: FA:46:17:D4:32:1A (Unknown)
+
+# Nmap done at Mon Sep 22 12:48:29 2025 -- 256 IP addresses (3 hosts up) scanned in 8.20 seconds
