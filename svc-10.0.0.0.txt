@@ -1,5 +1,5 @@
-# Nmap 7.95 scan initiated Mon Sep 22 12:50:44 2025 as: /usr/lib/nmap/nmap -sS -sV -p22,80,443 -oN svc-10.00.0.000.txt 10.63.6.162
-Nmap scan report for 10.00.0.000
+# Nmap 7.95 scan initiated Mon Sep 22 12:50:44 2025 as: /usr/lib/nmap/nmap -sS -sV -p22,80,443 -oN svc-10.0.0.0.txt 10.0.0.0
+Nmap scan report for 10.0.0.0
 Host is up (0.000084s latency).
 
 PORT    STATE  SERVICE VERSION
