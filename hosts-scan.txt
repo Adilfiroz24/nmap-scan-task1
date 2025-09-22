@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Mon Sep 22 12:47:51 2025 as: /usr/lib/nmap/nmap -sn -oN hosts-scan.txt 10.63.6.0/24
+Nmap scan report for 10.63.6.107
+Host is up (0.0062s latency).
+MAC Address: FA:46:17:D4:32:1A (Unknown)
+Nmap scan report for 10.63.6.205
+Host is up (0.00033s latency).
+MAC Address: F8:54:F6:22:B4:B5 (AzureWave Technology)
+Nmap scan report for 10.63.6.162
+Host is up.
+# Nmap done at Mon Sep 22 12:47:59 2025 -- 256 IP addresses (3 hosts up) scanned in 8.58 seconds
