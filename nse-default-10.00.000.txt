@@ -50,12 +50,12 @@ Pre-scan script results:
 |     Version: 2
 |     Group: 200.0.0.000
 |     Description: mDNS (rfc6762)
-|   10.63.6.205
+|   10.00.0.000
 |     Interface: eth0
 |     Version: 2
 |     Group: 200.0.0.000
 |     Description: Link-local Multicast Name Resolution (rfc4795)
-|   10.63.6.205
+|   10.00.0.000
 |     Interface: eth0
 |     Version: 2
 |     Group: 239.255.000.000
