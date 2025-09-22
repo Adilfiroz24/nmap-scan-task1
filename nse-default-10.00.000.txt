@@ -2,8 +2,8 @@
 Pre-scan script results:
 |_hostmap-robtex: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/
 | targets-ipv6-multicast-slaac: 
-|   IP: fe80::bd29:dde0:b9f8:b518  MAC: f8:54:f6:22:b4:b5  IFACE: eth0
-|   IP: fe80::7c64:8807:68fc:d88d  MAC: f8:54:f6:22:b4:b5  IFACE: eth0
+|   IP: fe80::bd29..........  MAC: f8:54:f6:22:b4:b5.....
+|   IP: fe80::7c64..........  MAC: f8:54:f6:22:b4:b5......
 |_  Use --script-args=newtargets to add the results as targets
 | targets-asn: 
 |_  targets-asn.asn is a mandatory parameter
@@ -45,25 +45,25 @@ Pre-scan script results:
 | 
 |_  Use --script-args=newtargets to add the results as targets
 | broadcast-igmp-discovery: 
-|   10.63.6.205
+|   10.00.0.000
 |     Interface: eth0
 |     Version: 2
-|     Group: 224.0.0.251
+|     Group: 200.0.0.000
 |     Description: mDNS (rfc6762)
 |   10.63.6.205
 |     Interface: eth0
 |     Version: 2
-|     Group: 224.0.0.000
+|     Group: 200.0.0.000
 |     Description: Link-local Multicast Name Resolution (rfc4795)
 |   10.63.6.205
 |     Interface: eth0
 |     Version: 2
-|     Group: 239.255.255.000
+|     Group: 239.255.000.000
 |     Description: Organization-Local Scope (rfc2365)
 |_  Use the newtargets script-arg to add the results as targets
 | targets-ipv6-multicast-echo: 
-|   IP: 2409:40e4:5d:58b2::9f      MAC: fa:46:17:d4:32:1a  IFACE: eth0
-|   IP: fe80::f846:17ff:fed4:321a  MAC: fa:46:17:d4:32:1a  IFACE: eth0
+|   IP: 2409:40e4:5d......      MAC: fa:46:17:.....  IFACE: eth0
+|   IP: fe80::f846:1......  MAC: fa:46:17:.....  IFACE: eth0
 |_  Use --script-args=newtargets to add the results as targets
 Nmap scan report for 10.00.0.00
 Host is up (0.000095s latency).
