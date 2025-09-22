@@ -1,4 +1,4 @@
-# Nmap 7.95 scan initiated Mon Sep 22 12:51:10 2025 as: /usr/lib/nmap/nmap --script default,discovery -p22,80,443 -oN nse-default-10.00.0.000.txt 10.00.0.000
+# Nmap 7.95 scan initiated Mon Sep 22 12:51:10 2025 as: /usr/lib/nmap/nmap --script default,discovery -p22,80,443 -oN nse-default-10.0.0.0.txt 10.0.0.0
 Pre-scan script results:
 |_hostmap-robtex: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/
 | targets-ipv6-multicast-slaac: 
@@ -45,27 +45,27 @@ Pre-scan script results:
 | 
 |_  Use --script-args=newtargets to add the results as targets
 | broadcast-igmp-discovery: 
-|   10.00.0.000
+|   10.0.0.0
 |     Interface: eth0
 |     Version: 2
-|     Group: 200.0.0.000
+|     Group: 20.0.0.0
 |     Description: mDNS (rfc6762)
-|   10.00.0.000
+|   10.0.0.0
 |     Interface: eth0
 |     Version: 2
-|     Group: 200.0.0.000
+|     Group: 20.0.0.0
 |     Description: Link-local Multicast Name Resolution (rfc4795)
-|   10.00.0.000
+|   10.0.0.0
 |     Interface: eth0
 |     Version: 2
-|     Group: 239.255.000.000
+|     Group: 239.5.00.0
 |     Description: Organization-Local Scope (rfc2365)
 |_  Use the newtargets script-arg to add the results as targets
 | targets-ipv6-multicast-echo: 
 |   IP: 2409:40e4:5d......      MAC: fa:46:17:.....  IFACE: eth0
 |   IP: fe80::f846:1......  MAC: fa:46:17:.....  IFACE: eth0
 |_  Use --script-args=newtargets to add the results as targets
-Nmap scan report for 10.00.0.00
+Nmap scan report for 10.0.0.0
 Host is up (0.000095s latency).
 
 PORT    STATE  SERVICE
@@ -74,7 +74,7 @@ PORT    STATE  SERVICE
 443/tcp closed https
 
 Host script results:
-|_dns-brute: Can't guess domain of "10.00.0.000"; use dns-brute.domain script argument.
+|_dns-brute: Can't guess domain of "10.0.0.0"; use dns-brute.domain script argument.
 |_ipidseq: All zeros
 |_path-mtu: ERROR: Script execution failed (use -d to debug)
 |_fcrdns: FAIL (No PTR record)
