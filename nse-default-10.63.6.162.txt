@@ -1,0 +1,82 @@
+# Nmap 7.95 scan initiated Mon Sep 22 12:51:10 2025 as: /usr/lib/nmap/nmap --script default,discovery -p22,80,443 -oN nse-default-10.63.6.162.txt 10.63.6.162
+Pre-scan script results:
+|_hostmap-robtex: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/
+| targets-ipv6-multicast-slaac: 
+|   IP: fe80::bd29:dde0:b9f8:b518  MAC: f8:54:f6:22:b4:b5  IFACE: eth0
+|   IP: fe80::7c64:8807:68fc:d88d  MAC: f8:54:f6:22:b4:b5  IFACE: eth0
+|_  Use --script-args=newtargets to add the results as targets
+| targets-asn: 
+|_  targets-asn.asn is a mandatory parameter
+|_http-robtex-shared-ns: *TEMPORARILY DISABLED* due to changes in Robtex's API. See https://www.robtex.com/api/
+| ipv6-multicast-mld-list: 
+|   fe80::efaf:f181:209a:9a2c: 
+|     device: eth0
+|     mac: f8:54:f6:22:b4:b5
+|     multicast_ips: 
+|       ff02::1:ff9a:9a2c         (NDP Solicited-node)
+|       ff02::1:3                 (Link-local Multicast Name Resolution)
+|       ff02::1:3                 (Link-local Multicast Name Resolution)
+|       ff02::fb                  (mDNSv6)
+|       ff02::1:3                 (Link-local Multicast Name Resolution)
+|       ff02::1:3                 (Link-local Multicast Name Resolution)
+|       ff02::fb                  (mDNSv6)
+|       ff02::fb                  (mDNSv6)
+|       ff02::fb                  (mDNSv6)
+|       ff02::1:3                 (Link-local Multicast Name Resolution)
+|       ff02::1:3                 (Link-local Multicast Name Resolution)
+|       ff02::1:fff8:b518         (Solicited-Node Address)
+|       ff02::fb                  (mDNSv6)
+|       ff02::c                   (SSDP)
+|       ff02::fb                  (mDNSv6)
+|       ff02::1:3                 (Link-local Multicast Name Resolution)
+|       ff02::fb                  (mDNSv6)
+|       ff02::1:ff96:acee         (Solicited-Node Address)
+|       ff02::1:fff8:b518         (Solicited-Node Address)
+|       ff02::1:fffc:d88d         (Solicited-Node Address)
+|       ff02::1:3                 (Link-local Multicast Name Resolution)
+|_      ff02::1:3                 (Link-local Multicast Name Resolution)
+|_multicast-profinet-discovery: 0
+| targets-ipv6-multicast-invalid-dst: 
+|   IP: 2409:40e4:5d:58b2::9f      MAC: fa:46:17:d4:32:1a  IFACE: eth0
+|   IP: fe80::f846:17ff:fed4:321a  MAC: fa:46:17:d4:32:1a  IFACE: eth0
+|_  Use --script-args=newtargets to add the results as targets
+| targets-ipv6-multicast-mld: 
+|   IP: fe80::efaf:f181:209a:9a2c  MAC: f8:54:f6:22:b4:b5  IFACE: eth0
+| 
+|_  Use --script-args=newtargets to add the results as targets
+| broadcast-igmp-discovery: 
+|   10.63.6.205
+|     Interface: eth0
+|     Version: 2
+|     Group: 224.0.0.251
+|     Description: mDNS (rfc6762)
+|   10.63.6.205
+|     Interface: eth0
+|     Version: 2
+|     Group: 224.0.0.252
+|     Description: Link-local Multicast Name Resolution (rfc4795)
+|   10.63.6.205
+|     Interface: eth0
+|     Version: 2
+|     Group: 239.255.255.250
+|     Description: Organization-Local Scope (rfc2365)
+|_  Use the newtargets script-arg to add the results as targets
+| targets-ipv6-multicast-echo: 
+|   IP: 2409:40e4:5d:58b2::9f      MAC: fa:46:17:d4:32:1a  IFACE: eth0
+|   IP: fe80::f846:17ff:fed4:321a  MAC: fa:46:17:d4:32:1a  IFACE: eth0
+|_  Use --script-args=newtargets to add the results as targets
+Nmap scan report for 10.63.6.162
+Host is up (0.000095s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+80/tcp  closed http
+443/tcp closed https
+
+Host script results:
+|_dns-brute: Can't guess domain of "10.63.6.162"; use dns-brute.domain script argument.
+|_ipidseq: All zeros
+|_path-mtu: ERROR: Script execution failed (use -d to debug)
+|_fcrdns: FAIL (No PTR record)
+
+# Nmap done at Mon Sep 22 12:51:21 2025 -- 1 IP address (1 host up) scanned in 11.49 seconds
